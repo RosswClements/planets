@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uranus</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<header>    
+    <div class="topnav" id="myTopnav">
+        
+            <a href="index.html" class="nav-brand">The Planets</a>                 
+            <a href="neptune.html" class="nav-right">Neptune</a> 
+            <a href="uranus.html" class="nav-right">Uranus</a>
+            <a href="saturn.html" class="nav-right">Saturn</a>         
+            <a href="jupiter.html" class="nav-right">Jupiter</a> 
+            <a href="mars.html" class="nav-right">Mars</a> 
+            <a href="earth.html" class="nav-right">Earth</a> 
+            <a href="venus.html" class="nav-right">Venus</a> 
+            <a href="mercury.html" class="nav-right">Mercury</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
+    </div>
+</header>
+<body>
+<div> <h1>Uranus</h1></div>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img class="planet-image" src="img/uranus.jpg" alt="Uranus">
+        </div>
+        <div class="flex-item">
+            <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). 
+               <br> It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the other giant planets.
+               <br> Like the other giant planets, Uranus has a ring system, a magnetosphere, and numerous moons. The Uranian system has a unique configuration because its axis of rotation is tilted sideways, nearly into the plane of its solar orbit. Its north and south poles, therefore, lie where most other planets have their equators.
+            </p>
+            </div>
+    </div>
+    <div><br></div>
+    <div class="flex-container">
+        <div class="flex-item">
+        <h3> <b> Orbit Time </b></h3>
+            <h1>84 Earth Years</h1>
+        </div>
+        <div class="flex-item">
+            <h3> <b> Rotation Time </b></h3>
+                <h1> 0d 17h 14m in Earth time </h1>
+        </div>
+        <div class="flex-item">
+            <h3> <b> Radius </b></h3>
+                <h1>25,362 km</h1>
+            </div>
+            <div class="flex-item">
+                <h3> <b> Mass </b></h3>
+                    <h1>8.681 × 10^25 kg</h1>
+                </div>
+            <div class="flex-item">
+                <h3> <b> Average Temperature </b></h3>
+                    <h1>-195°C</h1>
+                </div>
+    </div>
+
+    <div class="container2">
+        <a href="neptune.html" class="button">Next Planet</a> 
+    </div>
+    
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
