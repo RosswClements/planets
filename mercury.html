@@ -6,25 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercury</title>
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<header>
+    <div class="topnav" id="myTopnav">
+        
+            <a href="index.html" class="nav-brand">The Planets</a>                 
+            <a href="#" class="nav-right">Neptune</a> 
+            <a href="#" class="nav-right">Saturn</a> 
+            <a href="#" class="nav-right">Uranus</a> 
+            <a href="#" class="nav-right">Jupiter</a> 
+            <a href="#" class="nav-right">Mars</a> 
+            <a href="#" class="nav-right">Earth</a> 
+            <a href="#" class="nav-right">Venus</a> 
+            <a href="#" class="nav-right">Mercury</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
+    </div>
+</header>
 <body>
 
-    <header>
-            <div>
-                <ul>
-                    <li class="nav-brand"><a href="index.html">The Planets</a></li>                    
-                    <li class="nav-right"><a href="#">Neptune</a></li>
-                    <li class="nav-right"><a href="#">Saturn</a></li>
-                    <li class="nav-right"><a href="#">Uranus</a></li>
-                    <li class="nav-right"><a href="#">Jupiter</a></li>
-                    <li class="nav-right"><a href="#">Mars</a></li>
-                    <li class="nav-right"><a href="#">Earth</a></li>
-                    <li class="nav-right"><a href="#">Venus</a></li>
-                    <li class="nav-right"><a href="#">Mercury</a></li>
-                </ul>
-            </div>
-    </header>
     
+    
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
 
