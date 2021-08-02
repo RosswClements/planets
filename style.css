@@ -11,9 +11,25 @@ body {
     padding: 0;
     border: 0;
     text-align: center; 
-    font-family:sans-serif; 
+    font-family:'Oxygen', sans-serif; 
     font-weight: lighter;
     background-color: black;
+    color: #ddd;
+}
+
+p {
+    text-align: left;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.body1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center; 
+    font-family:sans-serif; 
+    font-weight: lighter;
+    background-color: transparent;
 }
 
 h1 {
@@ -36,6 +52,14 @@ h1 {
     font-size: 3.8rem;
 }
 
+.container2 {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom:10%;
+    text-align: center;
+}
+
+
 .button {
     background-color: #333; 
     border: none;
@@ -46,7 +70,7 @@ h1 {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: auto;
+    cursor: pointer;
     border-radius: 12px;
   }
   
@@ -90,15 +114,36 @@ h1 {
     display: none;
   }
   
-  @media screen and (max-width: 600px) {
+
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .flex-item {
+    text-align: center;
+    padding: 3em;
+    flex: 0 33%;
+    margin-bottom: -1em;
+  }
+
+  .planet-image {
+    height: auto;
+    width: 25rem;
+
+}
+
+
+  @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-  }
   
-  @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -110,4 +155,15 @@ h1 {
       display: block;
       text-align: left;
     }
-  }
+
+    .flex-container {
+        flex-direction: column;
+      }
+
+      .planet-image {
+        height: 20em;
+        width: 20em;
+      }
+
+
+}
