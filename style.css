@@ -36,7 +36,7 @@ h1 {
 }
 
 .button {
-    background-color: grey; 
+    background-color: #333; 
     border: none;
     color: white;
     padding: 8px 16px;
@@ -51,4 +51,33 @@ h1 {
   
 .button:hover {
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 6px 10px 0 rgba(0,0,0,0.19);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .nav-right {
+      float: right;
   }
