@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arrakis</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="nav-brand">The Planets</a>
+      <a href="neptune.html" class="nav-right">Neptune</a>
+      <a href="uranus.html" class="nav-right">Uranus</a>
+      <a href="saturn.html" class="nav-right">Saturn</a>
+      <a href="jupiter.html" class="nav-right">Jupiter</a>
+      <a href="mars.html" class="nav-right">Mars</a>
+      <a href="earth.html" class="nav-right">Earth</a>
+      <a href="venus.html" class="nav-right">Venus</a>
+      <a href="mercury.html" class="nav-right">Mercury</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <body>
+    <div><h1>Arrakis</h1></div>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img class="planet-image" src="img/arrakis.jpg" alt="Arrakis" />
+      </div>
+      <div class="flex-item">
+        <p>
+          Arrakis, also known as "Dune", and later "Rakis" after the fall of God
+          Emperor Leto Atreides II, is a harsh desert planet located on the far
+          edge of the Old Imperium in the Canopus star system. It later became
+          the Imperium's center under Muad'Dib's empire. It was the original and
+          for a long time sole source of the Spice Melange, which was vital for
+          space travel.
+        </p>
+        <p>
+          Little native life survived on Arrakis, owing to its scorching heat
+          and dry climate. The various lifeforms that did endure were eclipsed
+          by the sandworms, which roamed the deep deserts of the planet. The
+          sandworms played an important role in the production of melange, and
+          they aggressively protected their desert territory from humans and
+          other sandworms alike.
+        </p>
+
+        <p>
+          Before the discovery of the spice melange on the planet, Arrakis was
+          of little tactical, biological, or geological interest to the
+          inhabitants of the Imperium. However, the powerful effects of the
+          spice, especially with regard to space travel, quickly made it an
+          essential resource and a focal point for the empire. The discovery of
+          the spice melange noticeably increased Arrakis's importance, until by
+          the time of Paul Atreides it had become a critical component in the
+          Corrino Empire.
+        </p>
+      </div>
+    </div>
+    <div><br /></div>
+    <div class="flex-container">
+    <div class="flex-item">
+        <div><h1>A Sandworm of Arrakis</h1></div>
+        <img class="planet-image" src="img/worm.jpg" alt="Sandworm" />
+      </div>
+      </div>
+    <div class="flex-container">
+        <div class="flex-item">
+            <div><h1>Frank Herbert's Dune</h1></div>
+            <img class="planet-image" src="img/book.jpg" alt="Frank Herbert's Dune" />
+          </div>
+          <div class="flex-item">
+            <div><h1>Surface of Arrakis</h1></div>
+            <img class="planet-image" src="img/dune.jpg" alt="Dune" />
+          </div>
+      
+    </div>
+
+    <!-- <div class="container2">
+      <a href="jupiter.html" class="button">Next Planet</a>
+    </div> -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
