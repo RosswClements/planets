@@ -55,7 +55,7 @@ h1 {
 .container2 {
     position: relative;
     padding-top: 5%;
-    padding-bottom:10%;
+    padding-bottom:7.5%;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ h1 {
   
   .flex-item {
     text-align: center;
-    padding: 3em;
+    padding: 2em;
     flex: 0 33%;
     margin-bottom: -1em;
   }
