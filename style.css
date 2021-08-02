@@ -1,0 +1,54 @@
+.html1 { 
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(img/landing.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center; 
+    font-family:sans-serif; 
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: inherit; 
+    font-family: inherit; 
+    font-weight: inherit;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+
+.container1 {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom:15%;
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 3.8rem;
+}
+
+.button {
+    background-color: grey; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: auto;
+    border-radius: 12px;
+  }
+  
+.button:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 6px 10px 0 rgba(0,0,0,0.19);
+  }
